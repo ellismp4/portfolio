@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+:root {
+    --color-body:#cad4e0;
+    --color-heading:#e699ba;
+    --color-base: #ab4eb8;
+    --color-base2: #360533;
+    --color-brand:#cd8ccf;
+    --sidbar-width: 240px;
+    --font-base: 'Bai Jamjuree', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: var(--font-base), sans-serif;
+    color: var(--color-body);
+
+    background: linear-gradient(
+        -45deg,
+        #1a021b,
+        var(--color-base2),
+        #2a0a2e,
+        var(--color-base2)
+    );
+    background-size: 300% 300%;
+    animation: gradientBG 6s ease forwards;
+}
+.card-custom-content h4 {
+    color: #360533; /* dark purple */
+    font-weight: 700;
+}
+
+#about h4 {
+    color: #8e5a8b;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 80%; }   /* dark start */
+    100% { background-position: 0% 0%; }  /* settles into darker area */
+}
+
+h1 {
+    animation: slideUp 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+
+img {
+    width: 100%;
+}
+
+
+.text-brand {
+    color: var(--color-brand);
+}
+
+.bg-base {
+    background-color: var(--color-base);
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.shadow-effect {
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+
+.shadow-effect:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(205, 140, 207, 0.25);
+}
+.card-custom {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: var(--color-base);
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+    width: 100%;
+    display: block;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+}
+
+#about {
+    background-color: #3a123f;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card-custom-content {
+    padding: 24px;
+}
+
+.card-custom-content h4 {
+    color: var(--color-heading);
+    margin-bottom: 10px;
+}
+
+.card-custom-content p {
+    color: var(--color-body);
+    margin-bottom: 16px;
+}
+
+.section-divider {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    margin-top: -100px;   /* stronger overlap */
+}
+
+.contact-card {
+    background-color: #2a0a2e;
+    border-radius: 12px;
+    transition: transform 0.25s ease;
+}
+
+.contact-card h5 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-card p {
+    margin: 0;
+    color: var(--color-body);
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+}
+
+.contact-card a {
+    color: var(--color-body);
+}
+
+.contact-card a:hover {
+    color: var(--color-brand);
+}
+
+.section-divider svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#about .bg-base {
+    background-color: #2a0a2e;  /* same as skill/contact cards */
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+
+#about .bg-base:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px rgba(205, 140, 207, 0.2);
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+
+    background-color: var(--color-brand);
+    color: var(--color-base);
+    border: none;
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+/* SHOW STATE */
+#backToTop.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* HOVER */
+#backToTop:hover {
+    background-color: var(--color-brand2);
+    transform: translateY(-3px);
+}
+
+
+.section-divider path {
+    fill: #3a123f; /* lighter purple section color */
+}
+
+#skills {
+    background-color: #3a123f;
+}
+
+.card-custom {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(163, 78, 166, 0.35);
+}
+
+.card-custom-content h4 {
+    color: #6b2966 !important;
+}
+
+.skill-card h6 {
+    color: #ffffff;
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-brand);
+    color: var(--color-base);
+}
+
+/* NAVBAR */
+.navbar {
+    background: rgba(163, 78, 166, 0.85);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+/* when you add JS scroll class */
+.navbar.scrolled {
+    background: rgba(54, 5, 51, 0.95);
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgb(202,212,224,0.8),rgb(214,159,217,0.8)), url(./images/wildflower_hill.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* CONTENT WRAPPER */
+    #content-wrapper {
+        padding-left: var(--sidbar-width);
+    }
+}
+
+/* BTN */
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-brand {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-base);
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: var(--color-brand2);
+    color: var(--color-base);
+    border-color: var(--color-brand2);
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--color-brand), transparent);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: width 0.4s ease;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+.link-custom:hover {
+    color: var(--color-brand);
+}
+
+/* Button */
+.btn-base {
+    background-color: var(--color-heading);
+    color: #ffffff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-base:hover {
+    background-color: #933e96;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(147, 62, 150, 0.4);
+}
+
+.light-page {
+    background: white;
+    color: #333; /* optional: makes text readable on white */
+}
+
+  /* Image Shadows*/
+  .img-hover-zoom {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 12px;
+}
+
+.img-hover-zoom:hover {
+    transform: scale(1.05) rotate(0.5deg);
+    box-shadow: 0 15px 30px rgba(163, 78, 166, 0.35);
+}
+  
