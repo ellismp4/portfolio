@@ -56,6 +56,43 @@
     filter: blur(25px);
 }
 
+
+.contact-pill-fill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 28px;
+
+    border-radius: 999px;
+
+    background: var(--color-brand);  /* pink fill */
+    border: 2px solid #360533;       /* dark purple outline */
+    color: #360533;                  /* dark purple text */
+
+    font-weight: 700;
+    font-size: 16px;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.contact-pill-fill:hover {
+    background: var(--color-brand2); /* slightly deeper pink on hover */
+    transform: translateY(-3px);
+
+    box-shadow: 0 12px 30px rgba(54, 5, 51, 0.25);
+}
+
+@media (max-width: 768px) {
+    .contact-pill-btn {
+        padding: 12px 22px;
+        font-size: 15px;
+    }
+}
+
+
 @keyframes floatImage {
     0%,100% {
         transform: translateY(0px);
