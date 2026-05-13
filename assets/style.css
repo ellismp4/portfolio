@@ -407,7 +407,8 @@ img {
 }
 
 .navbar .nav-link:hover {
-    color: var(--color-brand);
+    color: #360533;
+    transform: translateX(3px);
 }
 
 .navbar .nav-link.active {
