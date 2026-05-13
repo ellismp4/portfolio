@@ -19,12 +19,6 @@
     position: relative;
 }
 
-@media (min-width: 992px) {
-    .hero-image {
-        transform: translateY(-30px);
-    }
-}
-
 .hero-image img {
     width: 100%;
     height: 100%;
@@ -55,44 +49,6 @@
     z-index: -1;
     filter: blur(25px);
 }
-
-
-.contact-pill-fill {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 14px 28px;
-
-    border-radius: 999px;
-
-    background: var(--color-brand);  /* pink fill */
-    border: 2px solid #360533;       /* dark purple outline */
-    color: #360533;                  /* dark purple text */
-
-    font-weight: 700;
-    font-size: 16px;
-
-    text-decoration: none;
-
-    transition: all 0.3s ease;
-}
-
-.contact-pill-fill:hover {
-    background: var(--color-brand2); /* slightly deeper pink on hover */
-    color: #ffffff;
-    transform: translateY(-3px);
-
-    box-shadow: 0 12px 30px rgba(54, 5, 51, 0.25);
-}
-
-@media (max-width: 768px) {
-    .contact-pill-btn {
-        padding: 12px 22px;
-        font-size: 15px;
-    }
-}
-
 
 @keyframes floatImage {
     0%,100% {
@@ -239,6 +195,62 @@ img {
     background-color: #3b2b39;
   padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.hero-image {
+    margin-top: -20px;
+}
+.contact-pill-fill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 28px;
+
+    border-radius: 999px;
+
+    background: var(--color-brand);  /* pink fill */
+    border: 2px solid #360533;       /* dark purple outline */
+    color: #360533;                  /* dark purple text */
+
+    font-weight: 700;
+    font-size: 16px;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.contact-pill-fill:hover {
+    background: var(--color-brand2); /* slightly deeper pink on hover */
+    transform: translateY(-3px);
+
+    box-shadow: 0 12px 30px rgba(54, 5, 51, 0.25);
+}
+
+@media (max-width: 768px) {
+    .contact-pill-btn {
+        padding: 12px 22px;
+        font-size: 15px;
+    }
+}
+
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+/* hover = only color change */
+.navbar .nav-link:hover {
+    color: #360533; /* dark purple */
+}
+
+.navbar .nav-link:hover {
+    color: #360533;
+    transform: translateX(3px);
 }
 
 .card-custom-content {
@@ -390,14 +402,20 @@ img {
 
 /* NAVBAR */
 .navbar {
-    background: rgba(122, 90, 112, 0.88);
-   backdrop-filter: blur(10px);
+    background: linear-gradient(
+        180deg,
+        rgba(70, 44, 125, 0.92),
+        rgba(131, 28, 145, 0.9),
+        rgba(213, 82, 163, 0.88)
+    );
+
+    backdrop-filter: blur(12px);
     transition: all 0.3s ease;
 }
 
 /* when you add JS scroll class */
 .navbar.scrolled {
-    background: rgba(51, 38, 49, 0.96);
+    background: rgba(46, 20, 61, 0.96);
 }
 
 .navbar .nav-link {
@@ -406,21 +424,24 @@ img {
     color: #fff;
 }
 
-.navbar .nav-link:hover {
-    color: #360533;
-    transform: translateX(3px);
-}
-
 .navbar .nav-link.active {
-    color: var(--color-brand);
+    color: #dea1bd; /* soft pink highlight */
 }
 
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgb(202,212,224,0.8),rgb(214,159,217,0.8)), url(./images/wildflower_hill.jpg);
-        background-size: cover;
+background:
+linear-gradient(
+    rgba(70, 44, 125, 0.78),
+    rgba(131, 28, 145, 0.75),
+    rgba(213, 82, 163, 0.72)
+),
+url(./images/wildflower_hill.jpg);
+
+background-size: cover;
+background-position: center;        background-size: cover;
         background-position: center;
     }
 
@@ -569,6 +590,5 @@ box-shadow: 0 15px 30px rgba(199, 124, 157, 0.22);}
         animation-duration: 16s;
     }
 }
-  
   
   
