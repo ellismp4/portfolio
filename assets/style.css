@@ -80,6 +80,7 @@
 
 .contact-pill-fill:hover {
     background: var(--color-brand2); /* slightly deeper pink on hover */
+    color: #ffffff;
     transform: translateY(-3px);
 
     box-shadow: 0 12px 30px rgba(54, 5, 51, 0.25);
