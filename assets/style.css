@@ -19,8 +19,10 @@
     position: relative;
 }
 
-.hero-image {
-    margin-top: -20px;
+@media (min-width: 992px) {
+    .hero-image {
+        transform: translateY(-20px);
+    }
 }
 
 .hero-image img {
