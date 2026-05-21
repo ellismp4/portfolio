@@ -82,7 +82,7 @@ background: linear-gradient(
 }
 
 .card-custom-image {
-    height: 250px; /* adjust height as needed */
+    height: 350px; /* adjust height as needed */
     overflow: hidden;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
