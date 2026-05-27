@@ -166,5 +166,12 @@
     <p class="footer-tagline mt-3 mb-0">Open to opportunities · 2026</p>
   </div>
 </footer>
+  <script>
+  document.querySelectorAll('.nav-link').forEach(link => {
+    if (link.href === window.location.href) {
+      link.classList.add('active');
+    }
+  });
+</script>
 </body>
 </html>
