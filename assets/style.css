@@ -29,6 +29,11 @@ footer {
   }
 }
 
+@media (max-width: 991px) {
+  footer {
+    margin-left: 0 !important;
+  }
+
 /* ── Skills / Tools Section ─────────────────────── */
 
 #tools {
