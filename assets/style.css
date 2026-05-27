@@ -23,9 +23,9 @@ footer {
   padding-left: calc(var(--sidbar-width) + 1.5rem) !important;
 }
 
-@media (max-width: 991px) {
+@media (min-width: 992px) {
   footer {
-    padding-left: 1.5rem !important;
+    margin-left: var(--sidbar-width) !important;
   }
 }
 
