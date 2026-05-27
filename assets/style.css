@@ -19,16 +19,6 @@
     position: relative;
 }
 
-footer {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-@media (min-width: 992px) {
-  footer {
-    margin-left: var(--sidbar-width);
-  }
-}
 
 
 
