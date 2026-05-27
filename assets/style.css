@@ -18,6 +18,17 @@
     margin: 0 auto;
     position: relative;
 }
+
+footer {
+  padding-left: calc(var(--sidbar-width) + 1.5rem) !important;
+}
+
+@media (max-width: 991px) {
+  footer {
+    padding-left: 1.5rem !important;
+  }
+}
+
 /* ── Skills / Tools Section ─────────────────────── */
 
 #tools {
