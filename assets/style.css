@@ -20,12 +20,13 @@
 }
 
 footer {
-  padding-left: calc(var(--sidbar-width) + 1.5rem) !important;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 @media (min-width: 992px) {
   footer {
-    margin-left: var(--sidbar-width) !important;
+    margin-left: var(--sidbar-width);
   }
 }
 
