@@ -18,6 +18,142 @@
     margin: 0 auto;
     position: relative;
 }
+/* ── Skills / Tools Section ─────────────────────── */
+
+#tools {
+  background-color: #3b2b39;
+}
+
+.skills-cat-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: var(--color-brand);
+  opacity: 0.7;
+  margin-bottom: 14px;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 18px;
+  border-radius: 12px;
+  background-color: var(--color-base);
+  border: 1px solid rgba(222, 161, 189, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  cursor: default;
+}
+
+.skill-chip:hover {
+  transform: translateY(-4px);
+  border-color: rgba(222, 161, 189, 0.55);
+  box-shadow: 0 12px 28px rgba(163, 78, 166, 0.3);
+}
+
+.skill-chip i {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.skill-chip span {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-body);
+  white-space: nowrap;
+  font-family: var(--font-base);
+}
+
+/* ── Tighter interior sections ───────────────────── */
+
+#tools,
+#education,
+#experience,
+#contact {
+  min-height: unset;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Remove the double padding full-height adds to these */
+#tools.full-height,
+#education.full-height,
+#experience.full-height,
+#contact.full-height {
+  min-height: unset;
+  height: auto;
+  justify-content: flex-start;
+}
+
+/* ── General spacing polish ───────────────────────── */
+
+/* Tighten gap between section heading and cards */
+.row.pb-4 {
+  padding-bottom: 1.5rem !important;
+}
+
+/* Slightly reduce card image height on desktop for better proportion */
+@media (min-width: 992px) {
+  .card-custom-image {
+    height: 280px;
+  }
+}
+
+/* Soften the section divider overlap so it doesn't eat space */
+.section-divider {
+  height: 80px;
+  margin-top: -60px;
+}
+
+
+.navbar .nav-link.active {
+  color: #fff !important;
+  opacity: 1;
+}
+.navbar .nav-link.active::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: var(--color-brand);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+.footer-credit { font-size: 13px; opacity: 0.65; color: var(--color-body); }
+.social-btn {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: rgba(222, 161, 189, 0.1);
+  border: 1px solid rgba(222, 161, 189, 0.2);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--color-brand);
+  font-size: 16px;
+  transition: all 0.25s ease;
+}
+.social-btn:hover {
+  background: rgba(222, 161, 189, 0.2);
+  transform: translateY(-2px);
+  color: var(--color-brand);
+}
+.footer-tagline {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  opacity: 0.35;
+  color: var(--color-body);
+  text-align: center;
+}
+
 
 .hero-image img {
     width: 100%;
