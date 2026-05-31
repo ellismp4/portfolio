@@ -111,10 +111,7 @@
 }
 
 /* Soften the section divider overlap so it doesn't eat space */
-.section-divider {
-  height: 80px;
-  margin-top: -60px;
-}
+
 
 
 .navbar .nav-link.active {
@@ -407,13 +404,6 @@ img {
     margin-bottom: 16px;
 }
 
-.section-divider {
-    position: relative;
-    width: 100%;
-    height: 140px;
-    overflow: hidden;
-    margin-top: -100px;   /* stronger overlap */
-}
 
 .contact-card {
     background-color: #43313f;
@@ -443,11 +433,7 @@ img {
     color: var(--color-brand);
 }
 
-.section-divider svg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
+
 #about .bg-base {
     background-color: #43313f;
 /* same as skill/contact cards */
@@ -502,11 +488,24 @@ img {
     transform: translateY(-3px);
 }
 
+.section-divider {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.section-divider svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .section-divider path {
     fill: #3b2b39;
-/* lighter purple section color */
 }
+
 
 #skills {
     background-color: #3b2b39;
