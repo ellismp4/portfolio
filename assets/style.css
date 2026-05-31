@@ -24,13 +24,19 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  height: 80px; /* must explicitly match the viewBox height */
+  height: 120px;
 }
 
 .section-divider svg {
   display: block;
-  width: 100%;
+  width: 200%; /* twice as wide so the loop is seamless */
   height: 100%;
+  animation: waveScroll 6s linear infinite;
+}
+
+@keyframes waveScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
 
 
