@@ -19,7 +19,9 @@
     position: relative;
 }
 
-
+.section-divider {
+    background-color: #3b2b39;
+}
 
 
 /* ── Skills / Tools Section ─────────────────────── */
