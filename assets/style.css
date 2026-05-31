@@ -20,7 +20,17 @@
 }
 
 .section-divider {
-    background-color: #3b2b39;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  height: 80px; /* must explicitly match the viewBox height */
+}
+
+.section-divider svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 
