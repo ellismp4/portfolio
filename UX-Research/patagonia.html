@@ -913,6 +913,25 @@
 
     </footer>
 
+    <div id="imageLightbox" class="image-lightbox" onclick="closeImage()">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightboxImage" src="" alt="">
+</div>
+
+<script>
+function openImage(image) {
+    const lightbox = document.getElementById("imageLightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+
+    lightboxImage.src = image.src;
+    lightboxImage.alt = image.alt;
+    lightbox.classList.add("active");
+}
+
+function closeImage() {
+    document.getElementById("imageLightbox").classList.remove("active");
+}
+</script>
 </body>
 
 </html>
