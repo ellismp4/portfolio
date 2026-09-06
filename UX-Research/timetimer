@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Marissa Ellis UI/UX Design Student</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Site Styles -->
+    <link href="../assets/style.css" rel="stylesheet">
+
+    <!-- Case Study Styles -->
+    <link href="../assets/patagonia.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/images/Logo.png">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+            <span class="h3 fw-bold d-block d-lg-none">Marissa Ellis</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="..\index.html">Home</a>
+                </li>
+                              <li class="nav-item">
+                    <a class="nav-link" href="..\ux-design.html">Product Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="..\graphic-design.html">Immersive Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="..\digital-marketing.html">Digital Marketing</a>
+                </li>
+                <li class="nav-item">
+    <a class="nav-link" href="..\index.html#contact">Contact</a>
+</li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main id="content-wrapper">
+
+        <div class="container">
+
+
+            <!-- =========================
+                 HERO
+            ========================== -->
+
+            <section class="case-study-hero">
+
+                <div class="row align-items-end">
+
+                    <div class="col-lg-9">
+
+                        <p class="eyebrow">UX Research &amp; Design</p>
+
+                        <h1>TimeTimer App Redesign & UX Analysis</h1>
+
+                        <p class="lead">
+Conducted UX research and redesigned the Time Timer app to improve onboarding, navigation, and accessibility of key features.                        </p>
+
+                    </div>
+
+                </div>
+
+<div class="project-details">
+
+    <div class="project-detail">
+        <span class="detail-label">Duration</span>
+        <span class="detail-value">16 Weeks</span>
+    </div>
+
+    <div class="project-detail">
+        <span class="detail-label">Team</span>
+        <span class="detail-value">8 Students</span>
+    </div>
+
+    <div class="project-detail">
+        <span class="detail-label">My Role</span>
+        <span class="detail-value"> UX Researcher & Designer</span>
+    </div>
+
+</div>
+
+
+            <!-- =========================
+                 OVERVIEW
+            ========================== -->
+
+<section class="case-study-section">
+    <div class="section-heading">
+        <h2>Overview</h2>
+    </div>
+
+    <div class="overview-grid">
+        <div class="overview-content">
+            <p>
+                Time Timer is a productivity app designed to help users manage their time effectively. It features a visual timer that allows users to see how much time is left for a task, promoting better time management and focus.
+            </p>
+
+            <p>
+                For this project, our team conducted UX research on the Time Timer app to identify areas for improvement in onboarding, navigation, and accessibility of key features.
+            </p>
+
+            <p>
+              The Intuix Design Agency is a team of eight undergraduate students driven by a shared commitment to meeting problems and crafting solutions tailored to each client. By bringing together diverse perspectives and skill sets, we create thoughtful, effective, and well-rounded solutions that address real needs with clarity and purpose.
+            </p>
+
+            <h3>My Role</h3>
+
+            <ul>
+                <li>Performed UX testing on the TimeTimer app and on our redesigns</li>
+                <li>Redesigned the app using Figma click-through prototypes</li>
+                <li>Presented to the client showcasing our research findings and redesign</li>
+            </ul>
+        </div>
+
+        <div class="overview-image">
+            <img 
+                src="https://difflearn.com/cdn/shop/products/DRT_009_Time_Timer_Max.jpg?v=1578590427&width=1214"
+                alt="TimeTimer clock"
+            >
+        </div>
+    </div>
+</section>
+
+            </section>
+
+
+            <!-- =========================
+                 RESEARCH GOAL
+            ========================== -->
+
+            <section class="case-study-section">
+
+                <div class="section-heading">
+                    <h2>Research Goal</h2>
+                </div>
+
+                <div class="section-content">
+
+                    <div class="highlight-box">
+
+
+                        <p class="mb-0">
+Time Timer came to the Intuix Design Agency to ask for their assistance in understanding the user experience of their app and developing recommendations for a redesign. Time Timer is a highly popular, award-winning visual timer brand trusted for over 30 years by educators, therapists, and parents to assist with time management, ADHD, and autism. The Time Timer application currently lacks a straightforward, user-friendly onboarding process. It does not provide a clear user experience (UX) or user interface (UI), nor does it offer quick-access features such as a widget. Consequently, users find it challenging to understand how to use essential features and effectively integrate the app into their daily lives. This project seeks to enhance the onboarding process, streamline the overall user experience and interface, and implement a home-screen widget to facilitate quicker access.                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 METHODS
+            ========================== -->
+
+            <section class="case-study-section">
+
+                <div class="section-heading">
+                    <h2>Methods</h2>
+                </div>
+
+                <div class="section-content">
+
+                    <p>
+We used a combination of evaluative and analytical user research methods to understand how the TimeTimer app performs. These included:
+                    </p>
+
+
+                    <div class="row g-4 mt-4">
+
+                        <div class="col-md-6">
+
+                            <div class="insight-card">
+
+                                <h3>Secondary Research
+</h3>
+
+                                <p class="mb-0">
+                                    Reviewed existing literature and data to understand the current state of the TimeTimer app and identify areas for improvement.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="insight-card">
+
+                                <h3>Survey</h3>
+
+                                <p class="mb-0">
+                                    Collected feedback from users to understand their experiences, needs, and expectations with the TimeTimer app.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="insight-card">
+
+                                <h3>Competitive Analysis</h3>
+
+                                <p class="mb-0">
+                                    Compared the TimeTimer app with competing apps to identify strengths, weaknesses, and opportunities for differentiation.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="insight-card">
+
+                                <h3>Usability Testing</h3>
+
+                                <p class="mb-0">
+                                    Observed users interacting with the TimeTimer app to identify usability issues and areas for improvement.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="insight-card">
+
+                                <h3>Interviews</h3>
+
+                                <p class="mb-0">
+                                    Conducted interviews with users to gather in-depth insights into their experiences, needs, and expectations with the TimeTimer app.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="insight-card">
+
+                                <h3>Meetings with Industry Experts</h3>
+
+                                <p class="mb-0">
+                                    Consulted with industry experts to gain insights into best practices, trends, and potential improvements for the TimeTimer app.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 Secondary Research
+            ========================== -->
+<section class="case-study-section">
+    <div class="section-heading">
+        <h2>Secondary Research</h2>
+    </div>
+
+    <div class="research-card-grid">
+
+        <!-- TIME BLINDNESS -->
+        <div class="research-card">
+            <div class="research-card-content">
+                <h3>Time Blindness Difficulties</h3>
+
+                <ul>
+                    <li>Estimating how long an activity will take</li>
+                    <li>Problems creating or adhering to schedules</li>
+                    <li>Frequently running late or missing appointments/meetings</li>
+                    <li>Getting hyper-focused on a task and losing track of time</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- APP DESIGN -->
+        <div class="research-card">
+            <div class="research-card-content">
+                <h3>App Design</h3>
+
+                <ul>
+                    <li>Keep navigation simple and consistent</li>
+                    <li>Focus each screen on one primary user action</li>
+                    <li>Gradually introduce features to avoid overwhelming users</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- WIDGETS -->
+        <div class="research-card">
+            <div class="research-card-content">
+                <h3>Widgets</h3>
+
+                <ul>
+                    <li>Provide constant, passive time reminders</li>
+                    <li>Reduces friction by minimizing extra step</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ONBOARDING -->
+        <div class="research-card">
+            <div class="research-card-content">
+                <h3>Onboarding Design</h3>
+
+                <p>
+                    Onboarding helps users quickly understand the app’s value.
+                    Effective onboarding can increase retention.
+                </p>
+
+                <h4>Key strategies:</h4>
+
+                <ul>
+                    <li>Keep it simple</li>
+                    <li>Use tooltips for extra guidance</li>
+                    <li>Include tutorials or interactive walkthroughs</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="case-study-section">
+    <div class="section-heading">
+        <h2>Survey</h2>
+    </div>
+
+    <div class="survey-intro">
+        <h3>During our early research, we noticed a pattern:</h3>
+
+        <p>
+            Many people struggle with perceiving and managing time effectively, even when they feel they are generally productive.
+        </p>
+
+        <p>
+            Because the TimeTimer concept focuses on visualizing time, we wanted to explore whether users felt that seeing time pass visually could improve focus and task management. We decided to do this by starting our research with a survey.
+        </p>
+
+        <p>
+            When distributing our survey, we intentionally targeted individuals with demanding and fast-paced schedules, as they are the most likely to rely on time management tools in their daily lives. Our primary participant groups included students, working professionals, and parents.
+        </p>
+
+        <p>
+            By gathering feedback from 103 people with different lifestyles and scheduling challenges, we were able to gain a broader understanding of how users manage their time and what they need from a productivity application like TimeTimer.
+        </p>
+    </div>
+
+
+<div class="survey-data-image">
+    <img src="../assets/images/survey-data.png" alt="Survey data">
+</div>
+
+<div class="survey-stat-grid">
+</div>
+
+    <div class="survey-details">
+        <span><strong>n= 103</strong></span>
+        <span><strong>Sampling Method: Convenience Sample</strong></span>
+        <span><strong>Multiple Choice Qs on Time Management + Visual Timers</strong></span>
+    </div>
+
+    <div class="survey-stat-grid">
+
+        <div class="survey-stat-card">
+            <div class="survey-stat-number">41%</div>
+            <p>
+                List Procrastination as their
+                <strong>#1 time management problem</strong>
+            </p>
+        </div>
+
+        <div class="survey-stat-card">
+            <div class="survey-stat-number">60%</div>
+            <p>
+                Are likely to try / use
+                <strong>a digital visual timer</strong>
+            </p>
+        </div>
+
+        <div class="survey-stat-card">
+            <div class="survey-stat-number">69%</div>
+            <p>
+                State that visually seeing time ticking down
+                <strong>helps them process time</strong>
+            </p>
+        </div>
+
+        <div class="survey-stat-card">
+            <div class="survey-stat-number">65%</div>
+            <p>
+                State they have
+                <strong>experienced ‘Time Blindness’</strong>
+            </p>
+        </div>
+
+    </div>
+</section>
+<section class="case-study-section">
+    <div class="section-heading">
+        <h2>Competitive Analysis</h2>
+    </div>
+
+    <div class="competitive-analysis-grid">
+
+        <!-- TIIMO -->
+        <div class="competitive-card">
+            <div class="competitive-card-content">
+                <h3>Tiimo</h3>
+
+                <div class="competitive-strengths">
+                    <h4>Strengths</h4>
+                    <p>
+                        Exceptional onboarding (Rating 9/10) with a "suggest for me" feature that reduces friction.
+                    </p>
+                </div>
+
+                <div class="competitive-weaknesses">
+                    <h4>Weaknesses</h4>
+                    <p>
+                        Very high price point ($50/month for full features) and extremely limited personalization options for layout or color.
+                    </p>
+                </div>
+            </div>
+
+            <div class="competitive-image">
+                <img src="https://cdn.prod.website-files.com/64786b629e5c33d650d54a0a/6756bf26ade95fecae0878be_6756be4fb7398ca59feda367_FocusTimerADHD.gif">
+            </div>
+        </div>
+
+
+        <!-- MULTITIMER -->
+        <div class="competitive-card">
+            <div class="competitive-card-content">
+                <h3>MultiTimer</h3>
+
+                <div class="competitive-strengths">
+                    <h4>Strengths</h4>
+                    <p>
+                        Strong history and repeating features. It allows users to view timer history via intuitive gestures (pinching/zooming).
+                    </p>
+                </div>
+
+                <div class="competitive-weaknesses">
+                    <h4>Weaknesses</h4>
+                    <p>
+                        Personalization is locked behind a premium paywall; the "family-friendly" neon aesthetic might not appeal to professional users seeking a minimalist tool.
+                    </p>
+                </div>
+            </div>
+
+            <div class="competitive-image">
+                <img src="https://apphuntt.wordpress.com/wp-content/uploads/2018/07/240c9bfd-3212-479b-aedc-79121b3cdadc.jpeg" alt="MultiTimer app interface">
+            </div>
+        </div>
+
+
+        <!-- VISUAL TIMER -->
+        <div class="competitive-card">
+            <div class="competitive-card-content">
+                <h3>Visual Timer</h3>
+
+                <div class="competitive-strengths">
+                    <h4>Strengths</h4>
+                    <p>
+                        Allows for deep personalization of colors and timer styles in the free version.
+                    </p>
+                </div>
+
+                <div class="competitive-weaknesses">
+                    <h4>Weaknesses</h4>
+                    <p>
+                        Suffers from poor UX (Rating 4/10) due to confusing setting names and a design that feels similar to the Time Timer.
+                    </p>
+                </div>
+            </div>
+
+            <div class="competitive-image">
+                <img src="https://visualtimer.com/images/og/home.png" alt="Visual Timer app interface">
+            </div>
+        </div>
+
+
+        <!-- ULTIMATE FOCUS -->
+        <div class="competitive-card">
+            <div class="competitive-card-content">
+                <h3>Ultimate Focus</h3>
+
+                <div class="competitive-strengths">
+                    <h4>Strengths</h4>
+                    <p>
+                        Outstanding variety of unique features (Rating 10/10), offering 45+ custom presets (e.g., progress timers, days-left timers).
+                    </p>
+
+                    <p>
+                        It uses a high-contrast dark theme (black/red/white) that makes the interface "pop."
+                    </p>
+                </div>
+
+                <div class="competitive-weaknesses">
+                    <h4>Weaknesses</h4>
+                    <p>
+                        Suffers from poor UX (Rating 4/10) due to confusing setting names and a design that feels similar to the Time Timer.
+                    </p>
+                </div>
+            </div>
+
+            <div class="competitive-image">
+                <img src="https://ultimatefocus.app/images/app-main-image-wide.png" alt="Ultimate Focus app interface">
+            </div>
+        </div>
+        </div>
+
+        <p>
+
+        </p>
+<p>
+
+</p>
+        <p>By conducting a competitive analysis of Time Timer’s leading competitors, we were able to identify areas where their app could be improved and gain concrete examples of potential improvements. The analysis also highlighted the features and strengths that Time Timer already excels in, helping us better understand where to focus our research and identify opportunities for meaningful innovation.</p>
+
+</section>
+
+
+            <!-- =========================
+                 IN-DEPTH INTERVIEWS
+            ========================== -->
+
+<section class="case-study-section">
+    <div class="section-heading">
+        <h2>User Interviews</h2>
+    </div>
+
+    <div class="interview-intro">
+        <p>
+            We began by drafting our interview questions based on the data we gathered from the survey of the core user demographic. We then performed six one-on-one interviews with people of diverse age groups (18-57) and genders (4F/2M), gathering key insights from their responses to our open-ended questions.
+        </p>
+    </div>
+
+
+    <!-- INTERVIEW INSIGHTS -->
+
+    <div class="interview-insights-grid">
+
+        <div class="interview-insight-card">
+            <h3>Emotional Insights</h3>
+
+            <ul>
+                <li>Time visually going down creates feelings of anxiety</li>
+                <li>Mobile timers are preferred over physical timers</li>
+                <li>Visual timers can improve feelings of accomplishment</li>
+            </ul>
+        </div>
+
+
+        <div class="interview-insight-card">
+            <h3>Design Preferences</h3>
+
+            <ul>
+                <li>Simple, sleek, and minimal design</li>
+                <li>Modern palettes or very dark screens</li>
+                <li>Calm and relaxing sound alerts</li>
+            </ul>
+        </div>
+
+
+        <div class="interview-insight-card">
+            <h3>Functionality Preferences</h3>
+
+            <ul>
+                <li>Showing time remaining, not time passed.</li>
+                <li>If a task is important enough to set a timer, it should be accessible as a widget.</li>
+                <li>Preference for lockscreen visibility (Live Activity) to reduce distractions.</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <!-- PREMIUM RESEARCH -->
+
+    <div class="premium-research">
+        <p>
+            From these interviews, we also wanted to focus on identifying not only the impact of app design and functionality on users, but also what drives them to purchase the premium account. This would guide us when deciding what design features are most important to the app, as those that drive the user to buy premium would be most valuable.
+        </p>
+    </div>
+
+
+    <!-- OBSERVATIONS -->
+
+    <div class="observations-section">
+
+        <div class="section-heading">
+            <h2>Observations</h2>
+        </div>
+
+
+
+        <div class="observation-grid">
+
+            <div class="observation-card">
+                <h3>Freemium First</h3>
+                <p>
+                    Free core experience builds trust before asking users to pay.
+                </p>
+            </div>
+
+
+            <div class="observation-card">
+                <h3>Vulnerability &amp; Authenticity</h3>
+                <p>
+                    Struggle and growth resonate more than highlight reels.
+                </p>
+            </div>
+
+
+            <div class="observation-card">
+                <h3>Accomplishment Tracking</h3>
+                <p>
+                    Users want their progress visible and reflected back at them.
+                </p>
+            </div>
+
+
+            <div class="observation-card">
+                <h3>Credible Spokesperson</h3>
+                <p>
+Users want their progress visible and reflected back at them.                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- WHAT DOES THIS MEAN -->
+
+    <div class="interview-takeaway">
+
+        <div class="section-heading">
+            <h2>What does this mean?</h2>
+        </div>
+
+        <div class="takeaway-content">
+            <p>
+                Our interview results showed that users value simplicity over an abundance of features when using a timer app. Their primary goal is to quickly create a timer, with little need for additional features or functionality. We also learned that users would rather use the timer as a widget or live activity on their screen, rather than within the app, showing a strong need for these to be created.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="case-study-section">
+    <div class="section-heading">
+        <h2>Usability Testing</h2>
+    </div>
+
+
+
+    <!-- TASKS -->
+
+    <div class="usability-tasks">
+<p>We created five tasks for our usability testing based on real user journeys. These were meant for us to get a clear understanding of how our users complete tasks, and to find where they struggle and succeed. </p>
+        <div class="usability-task-card">
+            <div class="task-number">01</div>
+            <div class="task-content">
+                <h3>Task 1: Create a Timer</h3>
+                <p>
+                    Set up a 45-minute timer and then a 10-minute timer.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="usability-task-card">
+            <div class="task-number">02</div>
+            <div class="task-content">
+                <h3>Task 2: 45 min → 15 min sequential timer</h3>
+                <p>
+                    Assign three time blocks; 15 minutes, 30 minutes, and 15 minutes and giving them names.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="usability-task-card">
+            <div class="task-number">03</div>
+            <div class="task-content">
+                <h3>Task 3: 3 Timer groups with names</h3>
+                <p>
+                    Find where you can change the sound the timer makes when it ends. Then see if you can change the color of the timer display.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="usability-task-card">
+            <div class="task-number">04</div>
+            <div class="task-content">
+                <h3>Task 4: Change sound and color</h3>
+                <p>
+                    You want to find the tutorial again to learn how to use the app.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="usability-task-card">
+            <div class="task-number">05</div>
+            <div class="task-content">
+                <h3>Task 5: Find Tutorial</h3>
+                <p>You want to find the tutorial again to learn how to use the app. </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- OBSERVATIONS -->
+
+    <div class="usability-observations">
+
+        <div class="section-heading">
+            <h2>Observations</h2>
+        </div>
+
+
+
+        <div class="usability-observation-grid">
+
+            <div class="usability-observation-card">
+                <div class="observation-number">1.</div>
+                <p>
+                    Unclear connection between Timer and Group features
+                </p>
+            </div>
+
+
+            <div class="usability-observation-card">
+                <div class="observation-number">2.</div>
+                <p>
+                    Tutorial does not prepare the user for the full usability of the application
+                </p>
+            </div>
+
+
+            <div class="usability-observation-card">
+                <div class="observation-number">3.</div>
+                <p>
+                    Icons are in the wrong place and lack meaning
+                </p>
+            </div>
+
+
+            <div class="usability-observation-card">
+                <div class="observation-number">4.</div>
+                <p>
+                    Too many menu options that do similar things
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- USABILITY TESTING RESULTS -->
+</section>
+
+<div class="usability-results">
+
+    <div class="section-heading">
+        <h2>Usability Testing Results</h2>
+    </div>
+
+
+    <!-- KEY METRICS -->
+
+    <div class="usability-metrics">
+
+        <div class="usability-metric">
+            <div class="metric-number">2</div>
+            <p>Average number of ‘Wrong Turns’</p>
+        </div>
+
+        <div class="usability-metric">
+            <div class="metric-number">1</div>
+            <p>Average number of Mediations</p>
+        </div>
+
+    </div>
+
+
+    <!-- GROUP CREATION -->
+
+    <div class="testing-result-card">
+
+        <div class="testing-result-content">
+
+            <h3>1: Group creation</h3>
+
+            <p class="result-highlight">
+                <strong>Only 1 participant found the group tab without difficulty</strong>
+            </p>
+
+            <div class="quote-list">
+
+                <div class="testing-quote">
+                    “This makes no sense, I cannot make the 2nd timer!”
+                    <span>(When trying to make a timer during group creation)</span>
+                </div>
+
+                <div class="testing-quote">
+                    “Get me out of this group!”
+                </div>
+
+                <div class="testing-quote">
+                    “I’m a little confused by having to select timers that already exist and not make new ones”
+                </div>
+
+                <div class="testing-quote">
+                    “What is the difference between the timer and the timer list?”
+                </div>
+
+            </div>
+
+            <p class="quote-context">
+                Regarding the icon on the top right of the ‘Timer’ page
+            </p>
+
+        </div>
+
+        <div class="testing-result-image">
+            <img src="../assets/images/groups.png" alt="Group creation interface">
+        </div>
+
+    </div>
+
+
+    <!-- ONBOARDING -->
+
+    <div class="testing-result-card">
+
+        <div class="testing-result-content">
+
+            <h3>2: Onboarding</h3>
+
+            <div class="quote-list">
+
+                <div class="testing-quote">
+                    “Oh… was that it?”
+                    <span>Said by two participants about the tutorial length</span>
+                </div>
+
+                <div class="testing-quote">
+                    “That was confusing to me, I don’t understand why when I was trying to do the task like it was saying it [the tutorial] just disappeared?”
+                    <span>Participant accidentally scrolled down which caused the tutorial to disappear</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ICON DESIGN & USAGE -->
+
+    <div class="testing-result-card">
+
+        <div class="testing-result-content">
+
+            <h3>3: icon design &amp; usage</h3>
+
+            <div class="quote-list">
+
+                <div class="testing-quote">
+                    “It did nothing” → “What do they do then?”?!?!
+                </div>
+
+                <div class="testing-quote">
+                    “That should be within the group page, not the timer page, since I cannot see that change happen!”
+                </div>
+
+                <div class="testing-quote">
+                    “The play and pause buttons are intuitive but all the ones at the bottom I have no idea what they do.”
+                </div>
+
+                <div class="testing-quote">
+                    “The plus doesn’t do anything if the timer is full and I think that’s weird.”
+                    <span>About the + and - minutes buttons</span>
+                </div>
+
+                <div class="testing-quote">
+                    “Outdated icons and set up” ⟶ “It would be easier for a new person like me if they had better icons at the bottom”
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="testing-result-image">
+            <img src="../assets/images/icons.png" alt="Time Timer icon design and usage">
+        </div>
+
+    </div>
+
+<!-- NAVIGATION -->
+
+<div class="testing-result-card">
+
+    <div class="testing-result-content">
+
+        <h3>4: Navigation</h3>
+
+        <p class="result-highlight">
+            <strong>All 4 participants listed navigation as their least favorite part of the app</strong>
+        </p>
+
+        <p class="quote-section-label">
+            Some quotes from the UX test:
+        </p>
+
+        <div class="quote-list">
+
+            <div class="testing-quote">
+                “Wait, you can scroll?!?”
+                <span>As she was messing with the front page</span>
+            </div>
+
+            <div class="testing-quote">
+                “I guess the fact that it [the tutorial] was two steps was confusing to me, I was expecting more, especially when I’m presented with so many options.”
+            </div>
+
+            <div class="testing-quote">
+                “I felt like what it was trying to do was cool, but hard to understand.”
+            </div>
+
+            <div class="testing-quote">
+                “I was confused about where to go because the icons weren’t clear.”
+            </div>
+
+            <div class="testing-quote">
+                “Figuring out navigation and what sections led to which things were weird; clicking on groups I didn’t immediately think “oh that’s where I am going to create a sequence.”
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- WHAT DOES THIS MEAN -->
+
+<div class="interview-takeaway usability-takeaway">
+
+    <div class="section-heading">
+        <h2>What does this mean?</h2>
+    </div>
+
+        <p>
+These usability testing results were one of the most critical pieces of data we needed to begin the design process. We had identified the core issues users were experiencing; now, it was time to turn those insights into solutions.        </p>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+</div>
+</main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p class="mb-0">
+                © 2026 Marissa Ellis
+            </p>
+
+        </div>
+
+    </footer>
+
+    <div id="imageLightbox" class="image-lightbox" onclick="closeImage()">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightboxImage" src="" alt="">
+</div>
+
+<script>
+function openImage(image) {
+    const lightbox = document.getElementById("imageLightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+
+    lightboxImage.src = image.src;
+    lightboxImage.alt = image.alt;
+    lightbox.classList.add("active");
+}
+
+function closeImage() {
+    document.getElementById("imageLightbox").classList.remove("active");
+}
+</script>
+
+</body>
+
+</html>
